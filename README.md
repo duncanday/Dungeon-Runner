@@ -53,16 +53,9 @@ In summary:
 
 A wireframe of the "Elements" system will later be updated here.
 
-### 0 to 1 design approach
-This section acts as a personal placeholder for the mathematical design philosophy for important game aspects such as: damage, life totals, etc. This design system allows for what I refer to as "logarithmic fun" (which is kind of a boring way to put it, ironically)
+### Introducing unique elements on gameplay loops
+The concept of allowing the developers and/or players to create their own characters to a detailed degree allows for unique elements to be added to the gameplay loop.
 
-The "0 to 1" design approach follows certain rules:
-1. Using a standard Cartesian coordinate system, four bounds are defined: (0,0), (1,0), (1,1), (0,1). This forms a square by which the design philosophy/approach is bound.
-2. The "Standard," for all absolute values of the game, follows the *y = mx + b* slope (linear, monotonic increase from (0,0) to (1,1)) and is not to exceed the outer bounds defined in #1.
-3. Confines of numerical testing should follow an integral area approach of the following: *the upper function limit of a logarithm approaching (1,1)*, and *the lower function limit of an exponent approaching (1,1).*
-4. The resulting number will be multiplied by 100.
+For example, a concept I've been playing around with is character permadeath, emulating roguelite progression. A unique element that can be applied to an RPG concept such as this is allowing for your created-character's permadeath in exchange for a chance at a more exotic item.
 
-This approach is based on a chart of *the logarithm, base 10, of a given number* n, *as it approaches +inf.* 
-When taking the resulting number, the logarithm, base 10, where n = 1, is 0. The logarithm, base 10, where n = 10, is 1. The logarithm, base 10, where n = 100, is 2. Therefore, as *n* increases by *10 times n*, "efficacy/effectiveness" (y-axis) increases linearly *2 times x*, where the x-axis is "fun." (again, such a fun way of analyzing fun, I know.)
-
-The design approach using *x times c*, and using its derivative... (to be finished later)
+Many RPGs, especially group RPGs, want to encourage this sort of hoarding of items (in my experience, at least). So, I would like to explore this concept of risking your character's life for exotic gear, but this gear is not revealed (or generated) until the player opts into this risk.
