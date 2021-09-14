@@ -15,7 +15,9 @@ Dungeon Runner is the working title name, and takes inspiration from several gam
 - Divinity: Original Sin 2: character and skill customization and inter-skill "element" interactions (skillbars, oil + fire = explosion, water + lightning = shock, etc.)
 - Apex Legends/Titanfall: first-person, high-intensity/action shooter, allowing for a low skill floor and high skill ceiling (like Warframe, it brings in new players, but allows dedicated players to master "tech"). Also, wall-running and an energy-system based on the Vortex Shield (the ability that catches bullets and throws it back. it's badass.)
 
-# DevTools
+# Section 1: DevTools
+
+## DevTools
 Inspirations are acknowledged, but the DevTools allows for the scalability of this project. DevTools will act as a GUI-version of boilerplate code for easy access to non-programmers (generally, designers). This allows for easy iteration of game design and abstraction for numerical design (e.g., "should this character/item/spell do 10 or 100 damage? should we include a range and pseudo-randomize the numbers? etc.)
 
 **Wireframes will be presented for the following tools in a separate file section.**
@@ -26,7 +28,7 @@ Currently, the following DevTools are in order:
 3. "Spell Maker"
 4. ...placeholder...
   
-## Unit Maker
+### Unit Maker
 The Unit Maker is an object-design system. A wireframe will be made to give an idea of the GUI necessary for this devtool. More detailed sub-concepts in this wireframe will be added later. (such as methods)
 
 The Unit Maker is a tool for a 3D-object-designer in Unreal Engine 5. It will specify the following aspects:
@@ -34,7 +36,7 @@ The Unit Maker is a tool for a 3D-object-designer in Unreal Engine 5. It will sp
 - Units also include characters, which are considered SIUs. The Unit Maker must allow for instantiation of these objects and save-states.
 - Units also include items, which are considered NSIUs. The Unit Maker must allow for the creation of these objects and adding to IUs as a component.
 
-## Dungeon (Level) Designer
+### Dungeon (Level) Designer
 The Dungeon (Level) Designer is a layered map system. It will allow a designer to either design a level linearly (manual placement), dynamically (automatic placement), or a hybrid of linear-dynamic generation.
 
 The layered map system follows this schema:
@@ -45,7 +47,7 @@ For example, if a map were to be generated dynamically, Layer 1 defines the size
 Layer 2 allows for rocks (a form of NSIU) to spawn on select - or random - squares, and then before the map is rendered and displayed to the client (player), rocks that are set on adjacent Layer-1 tiles will generate a "larger rock" that occupies those spaces in a 3D space.
 This allows for a linear-dynamic hybrid generation.
 
-## Spell Maker
+### Spell Maker
 The Spell Maker is very similar to how The Elder Scrolls III: Morrowind utilizes their spell-making/enchantment system.
 
 In summary:
@@ -54,6 +56,16 @@ In summary:
 3. The player then pays the in-game currency cost of creating this spell, and then can name it.
 
 A wireframe of the "Elements" system will later be updated here.
+
+# Section 2: Core Game Design
+
+## Genre-less "boilerplate"
+The reason to design the DevTools first is to provide a wide range of options for the applications of them. Not only does this allow expedited reiteration (if the proof-of-concept prototype fails), but the proof-of-concept prototype has the potential to adapt to a genre that wasn't intended.
+
+Much like a sandbox, the DevTools should allow for core design loops that adjust to various genres: RPG, FPS, Third-Person Action-Adventure, you name it. The DevTool will not catch all genres, but should make attempts to be broad enough for developers to work with.
+
+# Section 3: Game Design Ideas
+This section will later be split to allow for free-flowing idea generation.
 
 ### Introducing unique elements on gameplay loops
 The concept of allowing the developers and/or players to create their own characters to a detailed degree allows for unique elements to be added to the gameplay loop.
