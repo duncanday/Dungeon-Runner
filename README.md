@@ -4,7 +4,7 @@ By joining this GitHub, reading this document, and participating in its source c
 # Dungeon-Runner
 Dungeon Runner is a free-to-play (F2P), 2-10 player game, focusing on the PvE experience. Players will delve into dungeons (levels) and earn in-game rewards. There are no plans to introduce matchmaking or PvP experiences.
 
-It will be finalized in Unreal 5 in an FPS style, including its melee combat (which will allow shielding/guarding in the form of Titanfall 2's vortex shield)
+It will be finalized in a 3D engine. Outside of proprietary engines, the engine-of-choice is Unreal 5 (downloaded on Epic Games Launcher).
 
 ### Inspirations
 Dungeon Runner is the working title name, and takes inspiration from several games in various aspects:
