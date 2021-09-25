@@ -2,15 +2,6 @@
 Version: 1.0.0.0
 Date: 09/18/2021
 
-_Current Team:_
-1. Duncan Day
-2. CJ Remeikas
-3. Jacob Dekker
-4. Andrew Sullivan
-5. Chelsea Frederick
-
-Roles are currently non-descript.
-
 # Disclosure
 NOTE: By joining this GitHub, reading this document, and participating in its source code, you agree to standard NDAs (non-disclosure agreements). If you do not agree to the terms of a standard NDA, please close this window and notify the GitHub owner (Duncan Day) of your non-agreement.
 
