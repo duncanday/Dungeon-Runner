@@ -1,5 +1,5 @@
 # Foreword
-Version: 2.0.0.0
+Version: 2.1.0.0
 Date: 09/25/2021
 
 # Disclosure
@@ -11,6 +11,39 @@ Dungeon Runner is a free-to-play (F2P), 2-10 player game, focusing on the PvE ex
 There are no current plans to introduce matchmaking or PvP experiences. If the framework proves viable, then the possibilities will be considered.
 
 It will be finalized in a 3D engine. Currently, the engine of choice is Unity 5.
+
+## Overarching Story
+The release title will be "The Carbon Hearts."
+
+In the world of "The Carbon Hearts," an endless war is in place. However, those engaged in battle are obligated to do so, after coming into contact with the world's powerful, yet corruptible material: AETHER.
+
+Those who came in contact with AETHER became, to their loved ones..._something else._
+
+For better, their powers grew, and they were able to use it for good or evil.
+
+For worse, those touched by AETHER were envenomed by its power, and so, their powers would subside without more of it. Over time, their hearts would become a steely carbon, and over time, they became more machine than man.
+
+For better or for worse.
+
+## NFT integration
+A novel concept of blockchain technology is the ability to tokenize a representative of a digital or real-world object as a "token." While many cryptocurrencies are _fungible_, meaning that a token (or tokenized represenation of "something") can be reminted and reissued, an NFT, or non-fungible token, cannot be reminted or reissued in its "truest" form by attaching a digital signature to the recipient/purchaser, and provide an immutable record of it on the blockchain.
+
+NFTs have been explored in use cases regarding digital media, including games. In this project, NFTs will be integrated much like enjin.io handles NFTs (which allows NFTs to be transferred across games or "melted" back into its native coin, ENJ)
+
+This game will use NFTs to create an immutable item that transform's the player character over time:
+1. A participating player will be given a "Blank Carbon Heart" object which houses the consequences of all impacting decisions over time. They will be able to choose the gender and name for their character.
+2. The player will be able to play the game with or without any amount of cryptocurrency. However, when cryptocurrency is used, it will transform the "Blank Carbon Heart" into the color associated with the accepted cryptocurrency (Gold for Bitcoin, Light Purple for Ethereum, White for Stellar Lumens, etc.)
+3. Playing the game with cryptocurrency will allow for unique storylines to be experienced.
+
+The player's character can die. The cause of death will transform their Carbon Heart into a usable relic, whose stats are chosen by the player on death.
+
+The game is segmented into 4 seasons per year. In each season, a new chunk of DLC is released. Each season has its own challenging end, where it will test the player's skill to survive.
+
+Survivors can carry their character over into the next season, or sacrifice their character in the challenging end, turning their Carbon Heart into a usable relic as mentioned above.
+
+Usable Cryptocurrencies:
+1. The native token to the chain that the game is integrated with (BTC/ETH/ALGO/DOT/ATOM/etc.) Wrapped versions are not allowed.
+2. Fiat purchases are converted into stablecoins associated with the network. (for example, USDC/DAI with ETH, and UST with Terra Luna)
 
 ### Inspirations
 Dungeon Runner is the working title name, and takes inspiration from several games in various aspects:
@@ -29,9 +62,8 @@ The Designer Suite is intended to be available to both players and designers wit
 
 The following Designer Suite Features planned are:
 1. Charactermancer (current)
-2. Dungeon (Level) Designer
-3. Narrative Designer
-4. Objective Designer
+2. Dungeon/Level Designer
+3. Item Designer
 
 # Section 2: Gameplay and Design
 The current framework that all Designer Suite Features (DSFs) will be catered to is within the genre of: 3D RPG FPS (think Destiny).
