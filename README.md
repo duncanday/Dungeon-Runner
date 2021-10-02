@@ -1,7 +1,7 @@
 # Foreword
 Version: 2.2.0.0
 
-Date: 09/25/2021
+Date: 10/01/2021
 
 # Disclosure
 NOTE: By joining this GitHub, reading this document, and participating in its source code, you agree to standard NDAs (non-disclosure agreements) and intellectual property standards and laws.
