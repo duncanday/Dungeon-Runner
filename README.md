@@ -1,5 +1,5 @@
 # Foreword
-Version: 2.1.0.0
+Version: 2.1.1.0
 Date: 09/25/2021
 
 # Disclosure
@@ -11,6 +11,17 @@ Dungeon Runner is a free-to-play (F2P), 2-10 player game, focusing on the PvE ex
 There are no current plans to introduce matchmaking or PvP experiences. If the framework proves viable, then the possibilities will be considered.
 
 It will be finalized in a 3D engine. Currently, the engine of choice is Unity 5.
+
+**There are no current plans for monetization.** There are many aspects of games that can be monetized, but fun and game feel are prioritized first. Monetization as it relates to sustainability of the game will be implemented as needed.
+
+As far as sustainability goes, there are plans to implement a DeFi/open-source aspect to the game via governance. That is, stakeholders in the game can propose balance changes which the development team can implement - somewhat like Old School Runescape does.
+
+*However,* there is a no-/zero-tolerance policy on the following:
+- >1 votes, if votes are tokenized via a governance protocol;
+- Misbehavior (that is, if any elements of treating others poorly in the event of PvP/matchmaking) - this may include writing chat data on the blockchain in extreme measures (if a player says to another, "go kys," that player is banned permanently with or without appeal, and that chat data will be written on a form of blockchain.)
+- Alternate account creation; if another account is created, it must be linked to the original address used to participate in the game
+
+TBA: forms of KYC (which don't involve SSN/TIN/DL #s) to be enforced with regards to single-accounts only.
 
 ## Overarching Story
 The release title will be "The Carbon Hearts."
