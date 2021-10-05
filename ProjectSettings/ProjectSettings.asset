@@ -579,7 +579,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: FIRST_PERSON_CONTROLLER;ULTIMATE_CHARACTER_CONTROLLER_SHOOTER;FIRST_PERSON_SHOOTER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
